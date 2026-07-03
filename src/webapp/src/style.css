@@ -1,0 +1,59 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+:root {
+  /* Surfaces */
+  --color-void: #0a0c0e;
+  --color-panel: #14181b;
+  --color-panel-raised: #1b2024;
+  --color-border: #262b2f;
+  --color-border-soft: #1e2327;
+
+  /* Accents */
+  --color-gold: #c9a24b;
+  --color-gold-bright: #e4c271;
+  --color-emerald: #2f8f6f;
+  --color-emerald-bright: #43b78d;
+  --color-danger: #c1554a;
+  --color-danger-bright: #e0776c;
+
+  /* Text */
+  --color-text: #edefef;
+  --color-text-muted: #8b9198;
+  --color-text-faint: #5b6167;
+
+  /* Type */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Layout */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-panel: 0 1px 0 rgba(255, 255, 255, 0.03) inset,
+    0 20px 40px -24px rgba(0, 0, 0, 0.6);
+  --topbar-height: 72px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
